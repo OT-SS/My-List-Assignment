@@ -1,0 +1,16 @@
+my_list = []
+the_list = [40, 20, 30, 10]
+my_list.append(the_list)
+my_list.insert(2,15)
+new_list = [60,50,70]
+my_list.extend(new_list) 
+del my_list[-1] 
+
+my_list = [40, 20, 30, 10,60,50,70]
+my_list.sort()
+print(my_list)
+
+
+number = my_list.index(30)
+
+print (f"Index of 30 is:{number}")
